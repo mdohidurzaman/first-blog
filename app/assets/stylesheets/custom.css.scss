@@ -6,14 +6,39 @@ $navbar-default-bg:#fff;
 .nav_style{
     border:0px;
     border-radius:none;
+    border-bottom:1px solid #eaeaea;
+    
+    
 }
-
+.new-navbar ul li a{
+    font-size:18px;
+    color:#333!important;
+    padding-bottom:30px;
+}
+.new-navbar ul li a:hover{
+    color:green!important;
+}
+.new-navbar{
+    color:#fff!important;
+}
+.new-navbar:hover{
+    color:#333!important;
+}
+.form_control{
+    border:1px solid green;
+    font-size:18px;
+}
+.form_control:hover{
+    border:1px solid green;
+    font-size:18px;
+}
 #logo{
-    color:#333;
-    font-size:20px;
+    color:green !important;
+    font-size:30px;
+   
     text-transform:uppercase;
     font-weight:700;
-    letter-spacing:-1px;
+    letter-spacing:-1.5px;
 }
 .alignment{
     text-align:center;
