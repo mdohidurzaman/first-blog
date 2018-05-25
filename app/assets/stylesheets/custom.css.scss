@@ -7,8 +7,19 @@ $navbar-default-bg:#fff;
     border:0px;
     border-radius:none;
     border-bottom:1px solid #eaeaea;
-    
-    
+}
+ul li a{
+    text-decoration:none;
+    color:#333;
+   
+}
+ul li a:hover{
+    text-decoration:none;
+    color:#333; 
+}
+nav{
+    margin-right:2%;
+    margin-top:30px;
 }
 .new-navbar ul li a{
     font-size:18px;
@@ -67,7 +78,12 @@ $navbar-default-bg:#fff;
 .article-body{
     border-top:1px solid #eaeaea;
     padding-top:15px;
-    padding-bottom:15px;
+    margin-bottom:15px;
+}
+.article-meta-data{
+    border-top:1px solid #eaeaea;
+    padding-top:10px;
+    padding-bottom:10px;
 }
 footer{
     min-height:70px;
@@ -91,17 +107,4 @@ footer ul li{
     list-style:none;
     float:right;
     
-}
-ul li a{
-    text-decoration:none;
-    color:#333;
-   
-}
-ul li a:hover{
-    text-decoration:none;
-    color:#333; 
-}
-nav{
-    margin-right:2%;
-    margin-top:30px;
 }
