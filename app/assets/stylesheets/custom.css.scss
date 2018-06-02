@@ -3,6 +3,7 @@ $navbar-default-bg:#fff;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+
 .nav_style{
     border:0px;
     border-radius:none;
@@ -103,4 +104,8 @@ footer ul li{
     list-style:none;
     float:right;
     
+}
+.container-fluid{
+    padding-left:0;
+    padding-right:0;
 }
